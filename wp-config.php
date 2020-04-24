@@ -47,17 +47,17 @@ define('DB_NAME', 'juanderi_WPXZP');
 
 /** MySQL database username */
 
-define('DB_USER', 'juanderi_WPXZP');
+define('DB_USER', 'root');
 
 
 /** MySQL database password */
 
-define('DB_PASSWORD', 'feKnoAi1AZqoFKLAz');
+define('DB_PASSWORD', 'Password@123');
 
 
 /** MySQL hostname */
 
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'db:3306');
 
 
 
@@ -144,7 +144,7 @@ $table_prefix  = '_XZP_';
 
  */
 
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 
 
@@ -155,6 +155,8 @@ define( 'AUTOSAVE_INTERVAL',    300   );
 define( 'WP_POST_REVISIONS',    5     );
 define( 'EMPTY_TRASH_DAYS',     7     );
 define( 'WP_AUTO_UPDATE_CORE',  true  );
+define( 'WP_HOME', 'http://localhost:8000/' );
+define( 'WP_SITEURL', 'http://localhost:8000/' );
 /* That's all, stop editing! Happy blogging. */
 
 
