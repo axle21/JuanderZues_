@@ -1,6 +1,12 @@
 <?php get_header(); ?>
 <div id="content">
+
 	<div class="container">
+
+	<div class="map_section">
+		<?php echo do_shortcode( '[display-map id="42"]' ); ?>
+	</div>
+
 		<div class="content_left content_left_full">
 			<?php
 wp_reset_postdata();
@@ -49,10 +55,17 @@ global $wp_query;
 			<?php
 			endif;
 			wp_reset_postdata();
-			?>		
+			?>	
+			
 		</div>
+		
 		<?php //get_sidebar(); ?>
 		<div class="clear"></div>
+
+			
+				
 	</div>
+	
 </div>
+
 <?php get_footer(); ?>

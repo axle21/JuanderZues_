@@ -6,7 +6,7 @@
 <IfModule mod_expires.c>
 RewriteEngine On
 RewriteCond %{HTTP} off
-RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 	ExpiresActive On
 	ExpiresByType image/jpg "access plus 24 hours"
 	ExpiresByType image/jpeg "access plus 24 hours"
