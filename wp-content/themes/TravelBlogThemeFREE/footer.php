@@ -4,7 +4,7 @@
 <footer>
 	<div class="container">
 		<div class="copyright_text">
-			© 2020 All Rights Reserved. Powered by <a href="https://dessign.net/best-free-wordpress-travel-themes/">WordPress</a>
+			Created with ❤ by <a href="https://axle21.github.io/"><b>AxLe</b></a>
 		</div>
 	</div>
 </footer>

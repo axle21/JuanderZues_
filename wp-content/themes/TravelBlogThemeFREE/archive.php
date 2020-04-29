@@ -30,24 +30,32 @@
 					}
 				?>
 			</h3>
+			
+		</div> <!-- //archive_header -->	
+
+		<div class="category_description">
 			<?php
-			/*
+			
 				if ( is_category() ) {
 					// show an optional category description
 					$category_description = category_description();
 					if ( ! empty( $category_description ) )
-						echo '<h3 class="archive_desc">' . $category_description . '</h3>';
+						echo '<h6 class="archive_desc">' . $category_description . '</h6>';
 						//echo apply_filters( 'category_archive_meta', '<div class="taxonomy-description">' . $category_description . '</div>' );
-				} elseif ( is_tag() ) {
-					// show an optional tag description
-					$tag_description = tag_description();
-					if ( ! empty( $tag_description ) )
-						echo '<h3 class="archive_desc">' . $tag_description . '</h3>';
-						//echo apply_filters( 'tag_archive_meta', '<div class="taxonomy-description">' . $tag_description . '</div>' );
 				}
-			*/
+				//  elseif ( is_tag() ) {
+				// 	// show an optional tag description
+				// 	$tag_description = tag_description();
+				// 	if ( ! empty( $tag_description ) )
+				// 		echo '<h3 class="archive_desc">' . $tag_description . '</h3>';
+				// 		//echo apply_filters( 'tag_archive_meta', '<div class="taxonomy-description">' . $tag_description . '</div>' );
+				// }
+			
 			?>
-		</div> <!-- //archive_header -->	
+		</div>
+		
+
+
 		<div class="content_left content_left_full">
 			<?php $x = 0; ?>
 			<?php while ( have_posts() ) : the_post(); 
